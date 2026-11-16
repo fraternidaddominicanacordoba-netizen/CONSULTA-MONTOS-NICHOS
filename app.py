@@ -27,7 +27,7 @@ def cargar_datos():
     encodings = ['utf-8', 'latin-1', 'cp1252', 'iso-8859-1']
     for enc in encodings:
         try:
-            df_temp = pd.read_csv("ReportGeneral.csv", sep=",", encoding=enc, on_bad_lines="skip", low_memory=False)
+            df_temp = pd.read_csv("ReportGeneral.csv", sep=";", encoding=enc, on_bad_lines="skip", low_memory=False)
             if df_temp.shape[1] > 10:
                 # Limpiar espacios en los nombres de las columnas
                 df_temp.columns = df_temp.columns.str.strip()
