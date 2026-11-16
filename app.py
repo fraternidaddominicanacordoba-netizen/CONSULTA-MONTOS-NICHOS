@@ -168,7 +168,7 @@ if st.button("🔍 CONSULTAR MI CUENTA", use_container_width=True, type="primary
                 st.markdown(f"#### **Total a Pagar:** ${val_tot:,.2f}" if isinstance(val_tot, (int, float)) else f"#### **Total a Pagar:** ${val_tot}")
             
             st.markdown("---")
-            st.warning("⚠️ **Aviso importante:** Los montos mostrados son válidos hasta el **30 de octubre de 2026**.")
+            st.warning("⚠️ **Aviso importante:** Los montos mostrados son válidos hasta el **28 de Febrero de 2027**.")
             st.info("💳 **Medios de pago habilitados:** Tarjeta de débito, efectivo, transferencia bancaria y pago con QR.\n\n"
                     "📌 *Consulte de lunes a viernes por descuentos especiales por pago contado/transferencia.*")
 
