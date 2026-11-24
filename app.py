@@ -177,7 +177,7 @@ with st.expander("❓ ¿Dónde encuentro estos datos en mi recibo físico?"):
     st.write("Consulte en la siguiente imagen de muestra la ubicación exacta de cada dato dentro del comprobante:")
     
     posibles_recibos = [
-        "MUESTRA-RECIBO.JPG", "muestra-recibo.jpg", "MUESTRA-RECIBO.jpg", 
+        "MUESTRA-RECIBO.jpeg", "muestra-recibo.jpg", "MUESTRA-RECIBO.jpg", 
         "muestra-recibo.png", "MUESTRA-RECIBO.PNG", "muestra_recibo.png"
     ]
     
